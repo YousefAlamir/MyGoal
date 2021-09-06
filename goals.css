@@ -1,0 +1,80 @@
+#body {
+    background-color: purple;
+    background-size: cover;
+    padding: 10px;
+    margin: 0px;
+    align-content: center;
+}
+
+#container1{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#container{
+    max-width: 200px;
+    float: center;
+}
+
+#container2{
+    display: none;
+}
+
+#container3{
+    background-color: white;
+}
+
+.goal {
+    border: 1px solid gray;
+    background-color: purple;
+    color: honeydew;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+
+.goal p {
+    font-size: 1.25em;
+}
+
+.btnComplate, .btnDelete {
+    float: right;
+}
+
+form{
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 1000px){
+    #container1{
+        float: left;
+        width: 30%;
+        background-color: white;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #container2{
+        float: right;
+        display: block;
+        columns: auto;
+        width: 66%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #container3{
+        float: right;
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
